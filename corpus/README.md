@@ -1,3 +1,9 @@
+This corpus is part of the Ethical Narrative Corpus project.
+Please read the root README and the conceptual framework documents
+before using this dataset.
+
+---
+
 # Corpus Usage Guide
 
 This document explains how to read, interpret, and use the
