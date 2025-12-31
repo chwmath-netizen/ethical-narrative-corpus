@@ -8,6 +8,19 @@ A long-form narrative dataset for human-centered AI alignment.
 
 ---
 
+## Purpose
+
+The Ethical Narrative Corpus is not a typical open-source text repository.
+It is designed to support research into human-centered AI alignment through
+long-form narrative exposure rather than prescriptive rule-based ethics.
+
+This repository exposes narrative structures that encapsulate temporal
+continuity, human decision dynamics, and relational complexity,
+which are essential for long-context reasoning and ethical internalization
+in advanced AI systems.
+
+---
+
 ## Overview
 
 This repository contains a curated collection of long-form narrative texts
@@ -53,17 +66,28 @@ through internalization rather than instruction.
 
 ## What This Corpus Is (and Is Not)
 
-### This corpus **is**:
-- A long-form narrative dataset intended for alignment research
-- Written with consistent style and structural coherence
-- Designed to be read sequentially, not sampled randomly
-- Focused on humans as relational, historical, and emotional agents
+This corpus provides:
+- long-form narrative text for alignment research
+- structured narrative context emphasizing human complexity
+- static release of previously written material
 
-### This corpus **is not**:
-- A collection of moral dilemmas with correct answers
-- A prompt library for behavioral control
-- A political or ideological manifesto
-- A commercial content dump
+This corpus does **not** provide:
+- moral prescriptions
+- “correct” answers
+- isolated fragment training data
+
+For detailed ethical intent and project boundaries,
+see **S_ENGINE_2_0_CONCEPT.md** and **S_ENGINE_2_0_CONCEPT_EN.md**.
+
+---
+
+## Conceptual Framework
+
+This project’s guiding philosophy and alignment intentions
+are described in the conceptual framework documents.
+
+- [S_ENGINE_2_0_CONCEPT.md](./S_ENGINE_2_0_CONCEPT.md)
+- [S_ENGINE_2_0_CONCEPT_EN.md](./S_ENGINE_2_0_CONCEPT_EN.md)
 
 ---
 
@@ -151,3 +175,39 @@ over time, under pressure, and in relation to one another.
 
 If an AI is to live alongside humans,
 it should first learn how humans actually live.
+
+---
+
+## Corpus Content
+
+Narratives in this repository are provided under:
+- `/corpus/samhan_empire/` (Prologue–Ch.14)
+- (other narrative lines, if any)
+
+### Samhan Empire Volume 1
+
+This volume contains:
+- prologue.md
+- ch01.md … ch14.md
+
+See:
+- [corpus/README.md](./corpus/README.md)
+- [samhan_empire/README.md](./corpus/samhan_empire/README.md)
+
+---
+
+## Collaboration & Support
+
+For detailed collaboration guidelines and support opportunities:
+- See [COLLABORATION.md](./COLLABORATION.md)
+
+---
+
+## License & Intended Use
+
+This repository is published under the MIT License.
+
+For ethical intent and boundaries, see:
+- [S_ENGINE_2_0_CONCEPT.md](./S_ENGINE_2_0_CONCEPT.md)
+- [S_ENGINE_2_0_CONCEPT_EN.md](./S_ENGINE_2_0_CONCEPT_EN.md)
+
