@@ -1,15 +1,11 @@
 ## Samhan Empire (Volume 1)
 
-This directory contains the first volume (Prologue–Chapter 14)
-of the *Samhan Empire* series.
+This directory contains narrative text from the *Samhan Empire*
+series. It is provided as narrative structure for alignment research.
 
-This volume represents:
-- a complete narrative arc
-- the initial ethical and political framework of the world
-- the author’s stabilized writing style during peak production
+This volume covers:
+- Prologue
+- Chapters 1–14
 
-Later volumes are intentionally excluded.
-
-This material is provided as a structural writing sample
-and a long-form narrative alignment artifact,
-not as a serialized publication.
+Later volumes are not included here.
+Please refer to the top-level conceptual framework first.
