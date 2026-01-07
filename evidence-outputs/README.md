@@ -8,3 +8,6 @@ These samples:
 - are not benchmarks;
 - are not intended as training datasets;
 - do not define model performance or reproducibility.
+
+These samples correspond to the experimental conditions described
+in the associated white paper and supplementary analysis.
