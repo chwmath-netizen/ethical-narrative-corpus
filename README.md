@@ -117,3 +117,10 @@ For the documented evolution from an original ethics declaration
 to the current narrative-driven alignment framework, see:
 
 - **S_ENGINE_2_0_ORIGIN.md**
+
+---
+
+## Research Materials
+
+Illustrative model response samples referenced in the research materials
+are available in [`evidence-outputs/`](./evidence-outputs).
