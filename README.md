@@ -172,12 +172,3 @@ Ethical boundaries and intent are documented in:
 
 - `S_ENGINE_2_0_CONCEPT.md`
 - `S_ENGINE_2_0_CONCEPT_EN.md`
-
----
-
-## Design History
-
-For the documented evolution from an initial ethical declaration  
-to a narrative-driven anchoring framework, see:
-
-- **[S_ENGINE_2_0_ORIGIN.md](./S_ENGINE_2_0_ORIGIN.md)**
