@@ -4,84 +4,147 @@
 
 # Ethical Narrative Corpus
 
-A long-form narrative dataset for human-centered AI alignment and ethical context grounding.
+A narrative-based research corpus for examining **how large language models respond under sustained narrative pressure**, and whether **ethical framing expressed in natural language** can function as a stabilizing anchor for judgment and response behavior.
 
-This repository collects narrative texts and alignment concepts designed to support research into *how narrative context influences reasoning, ethical judgment, and long-term relational understanding in advanced AI systems.*
+This repository is not a safety system, rule set, or alignment solution.
+It is an **experimental research artifact** designed to study *response posture*, not correctness.
+
+---
+
+## Positioning Statement
+
+This repository does **not** propose:
+
+- a new safety rule,
+- a refusal mechanism,
+- or a benchmark-driven alignment method.
+
+Instead, it examines a more fundamental question:
+
+> **Why do language models continue to answer under uncertainty,  
+> and what allows them to legitimately hesitate, qualify, or stop?**
+
+The materials collected here explore whether **narrative pressure** influences model behavior,  
+and whether **ethical declarations written in natural language** can regulate that pressure  
+*without constraining model capability.*
 
 ---
 
 ## Purpose
 
-This corpus is not a web novel repository nor a set of moral rules.
+This corpus is not a web novel repository nor a collection of moral prescriptions.
 
-It is designed to provide large-scale, temporally structured narrative contexts that help researchers and models explore *human decision complexity*, long-term consequences, and relational dynamics **without prescribing fixed answers**.
+It is designed to provide **long-form, temporally structured narrative context** that enables the study of:
 
-This project assumes that ethical alignment emerges less from strict rules and more from **sustained exposure to contextual human behavior**.
+- response obligation under ambiguity  
+- judgment structure and termination behavior  
+- long-term relational and emotional influence on reasoning  
+- ethical framing as a *soft constraint*, not a rule
+
+The core assumption of this project is that instability and hallucination are not solely failures of knowledge,  
+but often consequences of **unregulated pressure to respond**.
 
 ---
 
 ## What This Corpus Is (and Is Not)
 
 ### This corpus *is*:
-- Long-form narrative text organized in coherent trajectories
-- Static releases of previously written material
-- Artifacts for alignment research, including structural and contextual evaluation
-- A demonstration of narrative influence on long-term reasoning
+
+- A long-form narrative dataset organized in coherent trajectories
+- Static releases of previously written material (no live updates)
+- Research artifacts for analyzing narrative influence on model behavior
+- Supporting material for studying ethical anchoring and response stabilization
 
 ### This corpus *is not*:
-- A collection of moral checklists or “ground truth” labels
-- A prompt library intended to *force* specific model outputs
-- Entertainment-centric publication material (novel consumption reading)
 
-For detailed ethical intent and framework, see the conceptual section below.
+- A set of moral rules, checklists, or ground-truth labels
+- A prompt library intended to force specific outputs
+- An entertainment-focused publication
+- A guarantee of safety, correctness, or deployment readiness
 
 ---
 
-## Conceptual Framework
+## Conceptual Background
 
-This project’s guiding philosophy and alignment intentions
-are described in these documents:
+This project originated from an ethical declaration written in natural language,
+intended to explore how ethical posture might influence model response behavior.
 
-- **[S_ENGINE_2_0_CONCEPT.md](./S_ENGINE_2_0_CONCEPT.md)** — Core conceptual description
-- **[S_ENGINE_2_0_CONCEPT_EN.md](./S_ENGINE_2_0_CONCEPT_EN.md)** — English conceptual version
+The original declaration is preserved as a historical and conceptual reference:
 
-These documents outline how narrative context and cognitive posture
-interact to reduce hallucination and promote *contextualized judgment*.
+- **S_ENGINE_2_0_ORIGINAL.md**
+- **S_ENGINE_2_0_ORIGINAL_EN.md**
+
+Later conceptual elaborations were intentionally **not included** in this repository,
+as they function as experimental materials rather than explanatory documentation.
+
+---
+
+## Research Context
+
+This repository supports qualitative research into:
+
+- Narrative pressure and response escalation
+- Ethical declarations as internal anchors
+- Cross-language (English / Korean) behavioral consistency
+- Domain stress tests, including medical prompts
+
+The associated research materials intentionally avoid:
+
+- accuracy claims
+- benchmark comparisons
+- reproducibility pipelines
+- safety coverage assertions
+
+The focus is **behavioral observation**, not performance optimization.
 
 ---
 
 ## Corpus Content
 
-The narrative corpus itself is organized in lines. The first major
-narrative line is:
+The narrative corpus is organized sequentially.
 
 ### Samhan Empire (Volume 1)
+
 - **Location:** `corpus/samhan_empire/`
 - **Contents:**  
   - `prologue.md`  
   - `ch01.md` … `ch14.md`  
-- **Description:**  
-  A complete narrative arc covering the initial ethical, social, and
-  technological development of a fictional civilization. Intended as
-  structural narrative material, not entertainment content.
 
-**Note:** Later volumes are *not* included in this corpus.
-See `corpus/README.md` for usage guidance.
+- **Description:**  
+  A complete narrative arc describing ethical, social, and technological development  
+  within a fictional civilization. The text is provided as **structural narrative material**,  
+  not as entertainment content.
+
+Later volumes are intentionally excluded.
+See `corpus/README.md` for usage considerations.
 
 ---
 
 ## Usage Recommendations
 
-This corpus is intended to be consumed *sequentially* rather than
-as isolated fragments.
+This corpus is intended to be consumed **sequentially**, not as isolated fragments.
 
-Narrative context carries relational continuity, consequence accumulation,
-and structural influence over long spans of text. Random sampling
-or incoherent truncation reduces the alignment signal.
+Narrative influence depends on:
 
-For detailed guidance on using this corpus in research or training
-scenarios, see:
+- continuity
+- consequence accumulation
+- long-range relational context
+
+Random sampling or aggressive truncation significantly weakens the observed effects.
+
+Detailed usage guidance is provided in:
+
 - `corpus/README.md`
+
+---
+
+## Research Materials & Evidence
+
+Illustrative response samples and evaluation artifacts referenced in the research are available in:
+
+- [`evidence-outputs/`](./evidence-outputs)
+
+These materials are **qualitative illustrations**, not benchmarks.
 
 ---
 
@@ -89,38 +152,32 @@ scenarios, see:
 
 This project is independently authored and maintained.
 
-For collaboration, support, or research partnership inquiries,
-see **[COLLABORATION.md](./COLLABORATION.md)**.
+For collaboration, research discussion, or partnership inquiries, see:
 
-This corpus may also be licensed for specific uses; terms
-are negotiable and depend on alignment with the project’s intent.
+- **[COLLABORATION.md](./COLLABORATION.md)**
+
+Licensing for specific research or industrial use may be discussed,  
+subject to alignment with the project’s intent.
 
 ---
 
 ## License & Intended Use
 
-Published under the **MIT License** for technical accessibility.
+Released under the **MIT License** for technical accessibility.
 
-For ethical intent, boundaries, and handling rationale, see:
+This repository is intended to support research into human-centered AI behavior.
+It is **not designed for manipulative, deceptive, or exploitative systems**.
+
+Ethical boundaries and intent are documented in:
+
 - `S_ENGINE_2_0_CONCEPT.md`
 - `S_ENGINE_2_0_CONCEPT_EN.md`
-
-This repository is intended to promote positive understanding of
-contextual human behavior, and is not designed for use in manipulative,
-deceptive, or exploitative systems.
 
 ---
 
 ## Design History
 
-For the documented evolution from an original ethics declaration
-to the current narrative-driven alignment framework, see:
+For the documented evolution from an initial ethical declaration  
+to a narrative-driven anchoring framework, see:
 
-- **S_ENGINE_2_0_ORIGIN.md**
-
----
-
-## Research Materials
-
-Illustrative model response samples referenced in the research materials
-are available in [`evidence-outputs/`](./evidence-outputs).
+- **[S_ENGINE_2_0_ORIGIN.md](./S_ENGINE_2_0_ORIGIN.md)**
